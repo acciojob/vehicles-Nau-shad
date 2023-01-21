@@ -4,6 +4,12 @@ public class Boat implements WaterVehicle {
     private String name;
     private int capacity;
 
+    //constructor
+    public Boat(String name , int capacity){
+        this.name=name;
+        this.capacity=capacity;
+    }
+
     /***getter setter start**/
     public String getName() {
         return name;
